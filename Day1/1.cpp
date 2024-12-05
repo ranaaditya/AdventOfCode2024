@@ -45,7 +45,7 @@ int main() {
     std::string line;
     
     // Open input file
-    std::ifstream input_file("1_input.txt");
+    std::ifstream input_file("input.txt");
     if (!input_file.is_open()) {
         std::cerr << "Error opening file" << std::endl;
         return 1;

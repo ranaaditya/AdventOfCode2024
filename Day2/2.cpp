@@ -53,7 +53,7 @@ void solve_puzzles(const std::vector<std::vector<int>>& reports) {
 }
 
 int main() {
-    std::ifstream input_file("2_input.txt");
+    std::ifstream input_file("input.txt");
     if (!input_file.is_open()) {
         std::cerr << "Error opening file" << std::endl;
         return 1;

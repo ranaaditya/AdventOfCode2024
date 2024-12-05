@@ -87,7 +87,7 @@ int process_instructions(const std::vector<Instruction>& instructions) {
 }
 
 int main() {
-    std::ifstream input_file("3_input.txt");
+    std::ifstream input_file("input.txt");
     if (!input_file.is_open()) {
         std::cerr << "Error opening file" << std::endl;
         return 1;
